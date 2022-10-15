@@ -1,19 +1,19 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: akannanspringbootapp 
+  name: femipringbootapp 
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: akannanspringbootapp
+      app: femipringbootapp
   template:
     metadata:
       labels:
-        app: akannanspringbootapp 
+        app: femipringbootapp 
     spec:
       containers:
-        - name: akannanspringbootapp 
-          image: myacrrepo431.azurecr.io/akannanspringbootapp
+        - name: femibootapp 
+          image: myacr131femi.azurecr.io/femipringbootapp
           ports:
           - containerPort: 80
