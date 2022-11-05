@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: femibootapp 
-          image: myacr131femi.azurecr.io/femipringbootapp
+          image: myacrrepo4321femi.azurecr.io/femipringbootapp
           ports:
           - containerPort: 80
