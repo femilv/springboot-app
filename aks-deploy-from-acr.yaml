@@ -13,7 +13,7 @@ spec:
         app: springboot-app
     spec:
       containers:
-      - name: my-springboot-app
+      - name: femi317-springboot-app
         image: myacrfemi22.azurecr.io/femiapp2290/springboot-app:#{Build.BuildId}#
         imagePullPolicy: Always
         ports:
